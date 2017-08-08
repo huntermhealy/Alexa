@@ -14,6 +14,7 @@ exports.handler = function(event, context, callback){
         stateHandlers.playModeIntentHandlers,
         stateHandlers.remoteControllerHandlers,
         stateHandlers.resumeDecisionModeIntentHandlers,
+        stateHandlers.whyCongress,
         audioEventHandlers
     );
 
